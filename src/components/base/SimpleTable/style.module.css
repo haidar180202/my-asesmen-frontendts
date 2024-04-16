@@ -1,0 +1,27 @@
+.simple-table-container {
+    @apply w-full overflow-y-auto mt-5;
+}
+
+.simple-table {
+    table-layout: auto;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+    @apply min-w-full;
+}
+
+.simple-table-th {
+    @apply text-sm font-semibold text-gray-600 text-center whitespace-normal bg-white py-3;
+}
+
+
+.simple-table-td {
+    @apply border border-gray-400 border-l-0 border-r-0 text-sm px-2 py-2 font-normal whitespace-normal;
+}
+
+.simple-table-td:first-child {
+    @apply border-l rounded-l-md;
+}
+
+.simple-table-td:last-child {
+    @apply border-r rounded-r-md;
+}

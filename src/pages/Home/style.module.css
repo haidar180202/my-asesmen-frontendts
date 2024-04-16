@@ -1,0 +1,56 @@
+.container-background {
+    @apply bg-gray-600 min-h-screen;
+}
+
+
+.container-form {
+    @apply container py-10;
+}
+
+.form {
+    @apply shadow-lg shadow-gray-300 min-h-[80vh] rounded-lg bg-white;
+}
+
+.form-header {
+    @apply p-5 border-b border-gray-600 text-center;
+}
+
+.form-content {
+    @apply p-5;
+}
+
+.text-form-header {
+    @apply text-base font-semibold text-gray-600;
+}
+
+.layout-icon-user {
+    @apply w-full flex items-start gap-x-2 flex-wrap;
+}
+
+.btn-save {
+    @apply bg-gray-600 text-white font-semibold !w-auto px-4 py-2 rounded-md float-right mt-5 mx-1;
+}
+
+@screen sm {
+    .text-form-header {
+        @apply text-lg;
+    }
+}
+
+@screen lg {
+    .text-form-header {
+        @apply text-xl;
+    }
+}
+
+@screen xl {
+    .text-form-header {
+        @apply text-2xl;
+    }
+}
+
+@screen 2xl {
+    .text-form-header {
+        @apply text-2xl;
+    }
+}
